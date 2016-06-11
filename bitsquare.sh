@@ -49,6 +49,10 @@ unzip jce_policy-8.zip
 sudo cp UnlimitedJCEPolicyJDK8/US_export_policy.jar /opt/jdk1.8.0_92/jre/lib/security/US_export_policy.jar
 sudo cp UnlimitedJCEPolicyJDK8/local_policy.jar /opt/jdk1.8.0_92/jre/lib/security/local_policy.jar
 
+echo "Getting openjfx overlay"
+wget http://chriswhocodes.com/downloads/openjfx-8u60-sdk-overlay-linux-armv6hf.zip
+sudo unzip openjfx-8u60-sdk-overlay-linux-armv6hf.zip -d /opt/jdk1.8.0_92
+
 echo "Install bitcoinj"
 git clone -b FixBloomFilters https://github.com/bitsquare/bitcoinj.git
 cd bitcoinj
