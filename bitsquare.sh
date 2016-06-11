@@ -1,9 +1,10 @@
 #!/bin/sh
 echo "#################################################"
 echo "# Bitsquare auto install on Raspberry PI.       #"
-echo "# +metabit (June 11 2016)                       #"
-echo "# https://github.com/metabit                    #"
+echo "# +metabit (June 11 2016) pteron (20160611)     #"
+echo "# https://github.com/pteron                     #"
 echo "# Donations: 1MetabitMKKGcYZy8YieDHenjjoMxHNAgW #"
+echo "# and/or 16YjG5gAsNMbar2KiJdUZrHgBu2pEYsNje     #"
 echo "#################################################"
 echo
 
