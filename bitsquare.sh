@@ -40,8 +40,8 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 
 echo "Install oracle JDK"
 sudo tar zxvf jdk-8u92-linux-arm32-vfp-hflt.tar.gz -C /opt
-sudo update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_92/bin/javac 320
-sudo update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_92/bin/java 320
+sudo update-alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_92/bin/javac 3200
+sudo update-alternatives --install /usr/bin/java java /opt/jdk1.8.0_92/bin/java 3200
 
 echo "Enable unlimited Strength for cryptographic keys"
 wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jce/8/jce_policy-8.zip
